@@ -171,12 +171,12 @@ To reproduce experiments from the paper, execute the bash scripts found in the `
 
 - ##### Example for BOOKS
     ```sh
-    $ bash run_all_theta.sh BOOKS RELATIVE 10
+    $ bash run_all_theta.sh AARHUS-BOOKS_2013 RELATIVE 10
     ```
 
 #### <i>kRelQuery</i>
 
 - ##### Example for BOOKS
     ```sh
-    $ bash run_all_topk.sh BOOKS RELATIVE 10
+    $ bash run_all_topk.sh AARHUS-BOOKS_2013 RELATIVE 10
     ```
