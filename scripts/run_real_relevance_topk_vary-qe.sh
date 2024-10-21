@@ -44,15 +44,15 @@ do
         then
             if [ "$#" -eq 4 ]
             then
-                ofile="../outputs/$1_qe${qe}%_qn10000_INTERVALTREE_qGOVERLAPS_sTOP-DOWN_k${k}_f${3}.txt"
-                echo "../query_relevance-topk_intervaltree.exec -q GOVERLAPS -s TOP-DOWN -k $k -f $3 -r ${!#} $ifile $qfile > $ofile"
-                ../query_relevance-topk_intervaltree.exec -q GOVERLAPS -s TOP-DOWN -k $k -f $3 -r ${!#} $ifile $qfile > $ofile
+                ofile="../outputs/$1_qe${qe}%_qn10000_INTERVALTREE_qGOVERLAPS_sDEPTH-FIRST_k${k}_f${3}.txt"
+                echo "../query_relevance-topk_intervaltree.exec -q GOVERLAPS -s DEPTH-FIRST -k $k -f $3 -r ${!#} $ifile $qfile > $ofile"
+                ../query_relevance-topk_intervaltree.exec -q GOVERLAPS -s DEPTH-FIRST -k $k -f $3 -r ${!#} $ifile $qfile > $ofile
             else
                 if [ $5 = "upper" ] || [ $5 = "UPPER" ]
                 then
-                    ofile="../outputs/$1_qe${qe}%_qn10000_INTERVALTREE_qGOVERLAPS_sTOP-DOWN_k${k}_f${3}_a${4}_b${5}.txt"
-                    echo "../query_relevance-topk_intervaltree.exec -q GOVERLAPS -s TOP-DOWN -k $k -f $3 -r ${!#} -a $4 -b $5 $ifile $qfile > $ofile"
-                    ../query_relevance-topk_intervaltree.exec -q GOVERLAPS -s TOP-DOWN -k $k -f $3 -r ${!#} -a $4 -b $5 $ifile $qfile > $ofile
+                    ofile="../outputs/$1_qe${qe}%_qn10000_INTERVALTREE_qGOVERLAPS_sDEPTH-FIRST_k${k}_f${3}_a${4}_b${5}.txt"
+                    echo "../query_relevance-topk_intervaltree.exec -q GOVERLAPS -s DEPTH-FIRST -k $k -f $3 -r ${!#} -a $4 -b $5 $ifile $qfile > $ofile"
+                    ../query_relevance-topk_intervaltree.exec -q GOVERLAPS -s DEPTH-FIRST -k $k -f $3 -r ${!#} -a $4 -b $5 $ifile $qfile > $ofile
                 fi
 
                 ofile="../outputs/$1_qe${qe}%_qn10000_INTERVALTREE_qGOVERLAPS_sBEST-FIRST_k${k}_f${3}_a${4}_b${5}.txt"
