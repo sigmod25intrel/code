@@ -8,7 +8,7 @@ then
         exit
 fi
 
-ifile="../inputs/$1_Sven.txt"
+ifile="../inputs/$1.txt"
 #qe=1
 qe=0.1
 
