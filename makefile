@@ -45,7 +45,6 @@ clean:
 	rm -rf indices/*.o
 	rm -rf query_relevance-theta_hint.exec
 	rm -rf query_relevance-theta_intervaltree.exec
-	rm -rf query_relevance-theta_intervaltree.old.exec
 	rm -rf query_relevance-topk_hint.exec
 	rm -rf query_relevance-topk_intervaltree.exec
 	rm -rf measure_accuracy_hint.exec
