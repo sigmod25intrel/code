@@ -167,17 +167,16 @@ For <i>θRelQuery</i>, all methods return the number of intervals overlapping a 
 
 To reproduce experiments from the paper, execute the bash scripts found in the ```scripts``` directory. Report files are written in the ```outputs``` directory.
 
-#### Vary query extent for <i>θRelQuery</i>
+#### <i>θRelQuery</i>
 
 - ##### Example for BOOKS
     ```sh
     $ bash run_all_theta.sh BOOKS RELATIVE 10
     ```
 
-#### Vary query extent for <i>kRelQuery</i>
+#### <i>kRelQuery</i>
 
-- ##### Exampel for BOOKS
+- ##### Example for BOOKS
     ```sh
     $ bash run_all_topk.sh BOOKS RELATIVE 10
     ```
-# code
