@@ -8,7 +8,7 @@ then
         exit
 fi
 
-ifile="../inputs/$1_Sven.txt"
+ifile="../inputs/$1.txt"
 th=0.5
 #th=0.01
 #th=0.001
