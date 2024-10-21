@@ -8,7 +8,7 @@ then
         exit
 fi
 
-ifile="../inputs/$1_Sven.txt"
+ifile="../inputs/$1.txt"
 k=10
 
 #for qe in 0.1 0.5 1 5 10
